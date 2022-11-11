@@ -5,7 +5,7 @@ Quick and dirty obsfucation script for StepMania packs (specifically for sightre
 ## Usage
 - Drag script into desired pack folder
 - Run script
-- Script will swap `#CHARTNAME` and `#TITLE` tags, remove existing `#CHARTNAME`, and obsfucate preview music/song artist
+- Script will swap `#CHARTNAME` and `#TITLE` tags, remove existing `#CHARTNAME`, obsfucate preview music/song artist, set graphics as appropriate, and move all files into appropriate group folders
 
 Also requires:
 - a silent.ogg file present in a different folder within the pack to properly obsfucate preview music (default name `Resources`, can change to whatever)
