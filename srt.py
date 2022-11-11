@@ -117,7 +117,6 @@ def createSRT(path: str):
 			for i in range(len(srtFiles)):
 				if srtFiles[i][0].lower().strip() == sim.title.lower().strip(): # FUCK
 					ind = i
-					print(f"Found file, ind = {ind}")
 					
 			assert ind >= 0, f"Title {sim.title} not found in srtFiles list"
 
